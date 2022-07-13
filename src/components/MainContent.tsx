@@ -4,8 +4,26 @@ import JournalEntry from "./JournalEntry";
 function MainContent(): JSX.Element {
   return (
     <main>
-      <FixedEntry />
-      <FixedEntry />
+      <JournalEntry
+        title={"Title goes here"}
+        tags={["tags", "go", "here"]}
+        body={
+          "Here is where we would put the body of the post"
+        }
+        views={0}
+        likes={0}
+        postDate={{ month: "June", day: 13, year: 2021 }}
+      />
+      <JournalEntry
+        title={"Title goes here"}
+        tags={["tags", "go", "here"]}
+        body={
+          "Here is where we would put the body of the post"
+        }
+        views={0}
+        likes={0}
+        postDate={{ month: "June", day: 13, year: 2021 }}
+      />
       <JournalEntry
         title={"Discovering React components"}
         tags={["react", "components", "reusability"]}
