@@ -7,9 +7,7 @@ function MainContent(): JSX.Element {
       <JournalEntry
         title={"Title goes here"}
         tags={["tags", "go", "here"]}
-        body={
-          "Here is where we would put the body of the post"
-        }
+        body={"Here is where we would put the body of the post"}
         views={0}
         likes={0}
         postDate={{ month: "June", day: 13, year: 2021 }}
@@ -17,9 +15,7 @@ function MainContent(): JSX.Element {
       <JournalEntry
         title={"Title goes here"}
         tags={["tags", "go", "here"]}
-        body={
-          "Here is where we would put the body of the post"
-        }
+        body={"Here is where we would put the body of the post"}
         views={0}
         likes={0}
         postDate={{ month: "June", day: 13, year: 2021 }}
